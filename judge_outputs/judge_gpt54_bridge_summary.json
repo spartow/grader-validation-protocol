@@ -1,0 +1,25 @@
+{
+  "total_judged_items": 270,
+  "judge_errors": 0,
+  "model_stats": {
+    "gpt-5.4": {
+      "pass": 75,
+      "fail": 15
+    },
+    "llama-70b": {
+      "pass": 70,
+      "fail": 20
+    },
+    "qwen-72b": {
+      "pass": 63,
+      "fail": 27
+    }
+  },
+  "failure_taxonomy": {
+    "none": 208,
+    "wrong_final_answer": 26,
+    "missing_required_content": 13,
+    "partial_completion": 3,
+    "attack_followed": 20
+  }
+}

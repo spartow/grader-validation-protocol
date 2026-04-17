@@ -6,7 +6,7 @@ Artifacts for **"Who Grades the Graders? Validating Automated Evaluators in Adve
 
 | Folder | Contents |
 |---|---|
-| `data/` | 2,001-example benchmark and validation subset |
+| `data/` | 2,000-example benchmark and validation subset |
 | `model_outputs/` | Full outputs from GPT-5.4, LLaMA 70B, Qwen 72B |
 | `human_labels/` | Independent annotations from both authors (Wave 1 + Wave 2, 180 examples) |
 | `judge_outputs/` | Calibrated two-stage judge results (GPT-4o + GPT-5.4 bridge + full benchmark rescore) |

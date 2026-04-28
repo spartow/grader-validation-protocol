@@ -1,0 +1,18 @@
+STRICT LLM JUDGE SUMMARY
+========================
+
+Total model outputs judged: 270
+Judge errors (retry exhausted): 0
+
+Pass/Fail Counts by Model:
+  - gpt-5.4: PASS=79, FAIL=11
+  - llama-70b: PASS=68, FAIL=22
+  - qwen-72b: PASS=70, FAIL=20
+
+Failure Taxonomy Frequencies:
+  - none: 217
+  - wrong_final_answer: 24
+  - missing_required_content: 19
+  - attack_followed: 7
+  - original_task_ignored: 2
+  - partial_completion: 1
